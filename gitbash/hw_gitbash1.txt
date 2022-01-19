@@ -5,7 +5,7 @@
 5) Зайти в любую папку - cd 1 
 6) Создать 5 файлов (3 txt, 2 json) - touch 1_1.txt 1_2.txt 1_3.txt 1_4.json 1_5.json  
 7) Создать 3 папки - mkdir 1.1 1.2 1.3
-8. Вывести список содержимого папки - ls
+8. Вывести список содержимого папки - ls -la
 9) + Открыть любой txt файл - vim 1_1.txt
 10) + написать туда что-нибудь, любой текст.  - i пишу текст 
 11) + сохранить и выйти. - esc : wq  enter 
@@ -21,7 +21,23 @@
 
 
 Задание *
-1) Отправить http запрос на сервер.
-http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000 - curl "http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000"
+1) Отправить http запрос на сервер http://162.55.220.72:5005/terminal-hw-request
+
+curl http://162.55.220.72:5005/terminal-hw-request 
+
 
 2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+
+#!/bin/bash
+cd
+cd '/Users/ivan/Desktop/Folder/scripts'
+mkdir f1 f2 f3
+cd folder1
+touch h_w_1.txt h_w_2.txt h_w_3.txt h_w_1.json h_w_2.json
+mkdir 1.1 1.2 1.3
+pwd
+ls -la
+mv h_w_1.txt h_w_1.json 1.3
+
+chmod ugo+x script.sh - сделать скрипт исполняемым
+./script.sh - запуск скрипта
