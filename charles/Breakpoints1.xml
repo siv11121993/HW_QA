@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<?charles serialisation-version='2.0' ?>
+<breakpoints>
+  <toolEnabled>true</toolEnabled>
+  <breakpoints>
+    <breakpoint>
+      <location>
+        <protocol>http</protocol>
+        <host>162.55.220.72</host>
+        <port>5005</port>
+        <path>/get_method</path>
+        <query>name=Ivan&amp;age=28</query>
+      </location>
+      <request>false</request>
+      <response>true</response>
+      <enabled>true</enabled>
+    </breakpoint>
+  </breakpoints>
+</breakpoints>
