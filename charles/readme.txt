@@ -14,3 +14,9 @@ Charles (установка сертификата на iOS )
 Charles lic
 Name: rutracker.org
 License: 7c0000000f6e916441
+
+
+Charles rewrite (подмена на лету - без остановки (автоматическая подмена))
+- [ ] tools/rewrite/enable rewrite/add/add/(host) http://162.55.220.72:5005/user_info_3/ok/add/body(выбираешь что на что менять)/ok
+Charles breakpoints (подмена с оcтановкой/ручная подмена); (Можно делать легкое нагрузочное тестирование 
+)
